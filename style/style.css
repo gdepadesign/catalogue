@@ -439,8 +439,8 @@ body {
   --ease: all 300ms ease;
 
   width: calc(100% - 50px);
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   padding: 35px 0px 0px;
   transition: var(--ease);
 }
@@ -472,6 +472,7 @@ body {
 
 .sticky .project-title h1 {
   font-size: 20px;
+  padding-bottom: 0;
 }
 
 .sticky .project-header {
@@ -479,9 +480,13 @@ body {
   border-bottom: 1px solid rgba(0, 255, 184, 0);
 }
 
-.sticky .project-details {
-  display: none;
+.sticky .project-intro {
+  height: 57px;
 }
+
+/* .sticky .project-details {
+  display: none;
+} */
 
 .progress {
   height: 1px;
@@ -538,6 +543,7 @@ body {
 }
 
 .project-services {
+  opacity: 1;
   text-wrap: balance;
   margin-top: 20px;
   padding-top: 15px;
@@ -547,12 +553,26 @@ body {
   line-height: 1.5em;
   text-transform: capitalize;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 300ms ease-out;
+}
+
+.sticky .project-services {
+  height: 0px;
+  opacity: 0;
+  margin-top: 0;
 }
 
 .project-details .project-attributes {
+  opacity: 1;
   width: 100%;
   justify-content: flex-start;
   gap: 20px;
+  transition: all 300ms ease-out;
+}
+
+ .sticky .project-details .project-attributes {
+  height: 0px;
+  opacity: 0;
 }
 
 .elements {
@@ -624,6 +644,9 @@ a .project-company::after {
 }
 
 .project-container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
   border-left: 1px solid #00ffb8;
   padding-bottom: 50px;
 }
@@ -688,6 +711,7 @@ a .project-company::after {
 }
 
 .module.excerpt {
+  padding-top: 0;
   gap: 40px;
   text-wrap: balance;
 }
@@ -795,7 +819,7 @@ a .project-company::after {
   width: calc(100% - 50px);
 }
 
-.slider .caption-container {
+.gallery-autoplay .caption-container {
   flex-direction: column;
   padding: 0;
   border-bottom: 0px solid rgba(255, 255, 255, 0.2);
@@ -805,7 +829,8 @@ a .project-company::after {
   justify-content: center;
 }
 
-.caption-title {
+.caption-title,
+.scrollX-intro .caption-title{
   min-height: 24px;
   display: flex;
   flex-direction: row;
@@ -817,8 +842,13 @@ a .project-company::after {
   color: #00ffb8;
 }
 
-.slider .caption-title {
+.gallery-autoplay .caption-title {
   font-size: 20px;
+}
+
+.scrollX-intro .caption-title {
+  position: absolute!important;
+  left: 0;
 }
 
 a .caption-title::after {
@@ -837,7 +867,7 @@ a .caption-title::after {
   color: #fff;
 }
 
-.slider .caption-info {
+.gallery-autoplay .caption-info {
   font-size: 18px;
 }
 
@@ -1047,7 +1077,7 @@ a .scrollY-title::after {
 
 .scrollX-intro .title-module {
   position: absolute;
-  left: 50px;
+  left: 0px;
 }
 
 .scrollX-info {
@@ -1076,21 +1106,21 @@ a .scrollY-title::after {
   max-width: 200px;
 }
 
-.slider {
+.gallery-autoplay {
   position: relative;
   width: calc(100% - 50px);
-  height: 70%;
+  height: 60vh;
   max-height: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.slider .slide {
+.gallery-autoplay .slide {
   min-width: 80%;
 }
 
-.slider > div {
+.gallery-autoplay > div {
   position: absolute;
   height: auto;
 }
@@ -1141,7 +1171,7 @@ a .scrollY-title::after {
 
 .carousel .carousel-items-container {
   display: flex;
-  padding-top: 40px;
+  padding-top: 60px;
   gap: 20px;
   height: auto;
   transition: transform 0.35s ease-in-out;
@@ -1439,7 +1469,7 @@ video,
     max-height: 600px;
   }
 
-  .slider {
+  .gallery-autoplay {
     height: 66.5%;
     max-height: 720px;
   }
@@ -1486,7 +1516,7 @@ video,
     max-height: 520px;
   }
 
-  .slider {
+  .gallery-autoplay {
     height: 70%;
     max-height: 635px;
   }
@@ -1744,7 +1774,7 @@ video,
     width: 100%;
   }
 
-  .slider {
+  .gallery-autoplay {
     height: 415px;
   }
 
@@ -1925,12 +1955,16 @@ video,
   }
 
   .project-intro.sticky {
-    max-height: 58px;
+    max-height: 59px;
   }
 
   .project-header {
     padding-left: 20px;
-    padding-bottom: 0px;
+  }
+
+  .sticky .project-header {
+    background-color: rgba(0, 0, 0, .95);
+    backdrop-filter: none;
   }
 
   .project-title {
@@ -1969,7 +2003,7 @@ video,
   }
 
   .project-details {
-    padding: 0 0 30px 0;
+    padding: 0;
   }
 
   .project-attributes,
@@ -2052,7 +2086,7 @@ video,
   }
 
   .module,
-  .slider {
+  .gallery-autoplay {
     width: 100%;
   }
 
@@ -2072,7 +2106,7 @@ video,
     align-items: flex-start;
   }
 
-  .slider {
+  .gallery-autoplay {
     max-height: 220px;
   }
 
@@ -2088,6 +2122,11 @@ video,
     padding-bottom: 20px;
   }
 
+  .nav.sticky {
+    backdrop-filter: none;
+    background-color: rgba(0, 0, 0, .9);
+}
+
   .nav-items {
     width: calc(100% - 40px);
     align-items: center;
@@ -2102,9 +2141,8 @@ video,
     padding-right: 20px;
   }
 
-  .carousel img {
-    max-width: 325px;
-    max-height: 300px;
+  .carousel .carousel-items-container img {
+    max-width: 300px;
   }
 
   .scrollY-container {
@@ -2125,7 +2163,8 @@ video,
   }
 
   .scrollX-intro {
-    width: calc(100% - 20px);
+    width: calc(100% - 40px);
+    right: 20px;
   }
 }
 

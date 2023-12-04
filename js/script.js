@@ -234,12 +234,12 @@ function disableContextmenu() {
 
 function galleryAutoplay() {
   $(function () {
-    $(".slider").each(function () {
+    $(".gallery-autoplay").each(function () {
       $(this).children().not(":nth-child(2)").hide();
     });
 
     setInterval(function () {
-      $(".slider").each(function () {
+      $(".gallery-autoplay").each(function () {
         $(this)
           .children(":first")
           .fadeOut(500)
