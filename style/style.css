@@ -849,7 +849,7 @@ a .caption-title::after {
   z-index: 20;
   color: rgba(0, 255, 184, 1);
   border: 1px solid rgba(0, 255, 184, 1);
-  line-height: .7em;
+  line-height: .6em;
   padding: 6px;
   cursor: pointer;
   background-color: rgba(255, 255, 255, 0);
