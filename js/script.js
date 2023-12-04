@@ -418,21 +418,12 @@ function addStickyNav() {
 }
 
 function addStickyHeader() {
-  var stickyHeaderTop = $("body").offset().top;
-
-  var stickyNav = function () {
-    var scrollTop = $("body").scrollTop();
-
-    if (scrollTop > stickyHeaderTop) {
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 1) {
       $(".nav").addClass("sticky");
     } else {
       $(".nav").removeClass("sticky");
     }
-  };
-
-  stickyNav();
-  $(window).scroll(function () {
-    stickyNav();
   });
 }
 
@@ -456,6 +447,7 @@ function addProgressBar(dataTarget) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
+  addStickyHeader();
   imageReveal();
   openCloseSidebar();
   openProject();
@@ -463,7 +455,6 @@ document.addEventListener("DOMContentLoaded", () => {
   changeProject();
   disableContextmenu();
   selectByFilter();
-  addStickyHeader();
   initCategory();
   highlightCategory();
   galleryAutoplay();
