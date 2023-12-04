@@ -120,7 +120,7 @@ function closeProject() {
       $(".project").removeClass("project-active");
       $(".project-name").removeClass("open-active");
       $(".open").removeClass("nohover");
-    },
+    }
   );
 }
 
@@ -290,7 +290,7 @@ function addFadeIn() {
               $(this).animate(
                 { opacity: "1", "margin-top": "0" },
                 300,
-                "swing",
+                "swing"
               );
             }
           } else {
@@ -298,7 +298,7 @@ function addFadeIn() {
               $(this).animate(
                 { opacity: "0", "margin-top": "50" },
                 600,
-                "swing",
+                "swing"
               );
             }
           }
@@ -341,62 +341,55 @@ function carouselDrag() {
 }
 
 function carouselNav() {
+  const imgWidth = 475;
+  const imgGap = 20;
+  const duration = 500;
 
-  // HTML Elements
-  const $slidesContainer = $(".carousel-items-container");
-  const $slides = $slidesContainer.children(".carousel-item");
-  const $btnPrev = $(".btn-prev");
-  const $btnNext = $(".btn-next");
+  const sliders = document.querySelectorAll(".carousel");
 
-  const imgWidth = $slides.first().width();
-  let isSlideAnimating = false;
+  sliders.forEach((slider) => {
+    let currentIndex = 0;
 
-  $slides.each(function (i) {
-    const leftPos = i * imgWidth;
+    let isSlideAnimating = false;
 
-    $(this).css("left", leftPos);
+    const slides = slider.querySelectorAll(".carousel-item");
+
+    const btnPrev = slider.querySelector(".btn-prev");
+    const btnNext = slider.querySelector(".btn-next");
+
+    if (btnPrev && btnNext) {
+      btnNext.addEventListener("click", (el) => changeSlide(el, 1));
+      btnPrev.addEventListener("click", (el) => changeSlide(el, -1));
+
+      function changeSlide(el, amount) {
+        if (isSlideAnimating) {
+          return;
+        }
+
+        isSlideAnimating = true;
+
+        currentIndex = currentIndex + amount;
+
+        if (currentIndex == slides.length) {
+          currentIndex = 0;
+        } else if (currentIndex < 0) {
+          currentIndex = slides.length - 1;
+        }
+
+        const carousel = el.target.closest(".carousel");
+
+        carousel.scrollTo({
+          top: 0,
+          left: currentIndex * (imgWidth + imgGap),
+          behavior: "smooth",
+        });
+
+        setTimeout(() => {
+          isSlideAnimating = false;
+        }, duration);
+      }
+    }
   });
-
-  $slides.last().prependTo($slidesContainer).css("left", -imgWidth);
-
-  $btnPrev.click(prevSlide);
-  $btnNext.click(nextSlide);
-
-  function prevSlide() {
-    if (isSlideAnimating) {
-      return;
-    }
-
-    isSlideAnimating = true;
-
-    $slidesContainer
-      .children()
-      .last()
-      .css("left", -(imgWidth * 2))
-      .prependTo($slidesContainer);
-
-    $slides.animate({ left: "+=" + imgWidth }, 300, function () {
-      isSlideAnimating = false;
-    });
-  }
-
-  function nextSlide() {
-    if (isSlideAnimating) {
-      return;
-    }
-
-    isSlideAnimating = true;
-
-    $slidesContainer
-      .children()
-      .first()
-      .css("left", imgWidth * ($slides.length - 1))
-      .appendTo($slidesContainer);
-
-    $slides.animate({ left: "-=" + imgWidth }, 300, function () {
-      isSlideAnimating = false;
-    });
-  }
 }
 
 function playVideo() {
@@ -428,7 +421,7 @@ function addStickyHeader() {
   var stickyHeaderTop = $("body").offset().top;
 
   var stickyNav = function () {
-    var scrollTop = $("body").scrollTop(); // our current vertical position from the top
+    var scrollTop = $("body").scrollTop();
 
     if (scrollTop > stickyHeaderTop) {
       $(".nav").addClass("sticky");
@@ -452,8 +445,8 @@ function addProgressBar(dataTarget) {
     var docHeight = $("#" + dataTarget).outerHeight();
     scrollPercent = Number(
       (($(".sidebar").scrollTop() / (docHeight - windowHeight)) * 100).toFixed(
-        1,
-      ),
+        1
+      )
     );
 
     //console.log({ scrollPercent, docHeight, windowHeight });
