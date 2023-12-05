@@ -652,8 +652,9 @@ a .project-company::after {
 }
 
 .project-intro {
-  display: flex;
-  flex-direction: column;
+  height: auto;
+  display: block;
+  /* flex-direction: column; */
 }
 
 .project-intro.sticky {
@@ -674,6 +675,7 @@ a .project-company::after {
 }
 
 .project-content {
+  height: auto;
   color: #00ffb8;
   padding-left: 50px;
 }
@@ -1342,7 +1344,6 @@ video,
 .cta-primary {
   display: flex;
   justify-content: end;
-  padding-top: 50px;
 }
 
 .btn {
@@ -1461,6 +1462,10 @@ video,
     font-size: 16px;
   }
 
+  .scrollY-container {
+    max-width: 1051px;
+  }
+
   .scrollY-intro {
     margin: 0 auto;
   }
@@ -1510,6 +1515,10 @@ video,
 
   .wrapper.is-shift-content .project-category {
     font-size: 13px;
+  }
+
+  .scrollY-container {
+    max-width: 990px;
   }
 
   .item-scrollY {
@@ -1601,8 +1610,12 @@ video,
     width: auto;
   }
 
+  .scrollY-container {
+    max-width: 800px;
+  }
+
   .item-scrollY {
-    max-height: 453px;
+    max-height: 450px;
   }
 }
 
@@ -1660,6 +1673,10 @@ video,
 
   .wrapper.is-shift-content .project-name h1 {
     font-size: 18px;
+  }
+
+  .scrollY-container {
+    max-width: 720px;
   }
 
   .item-scrollY {
