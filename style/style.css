@@ -2013,7 +2013,7 @@ video,
   }
 
   .sticky-header .module.excerpt {
-  padding-top: 45px;
+    padding-top: 45px;
   }
 
   /*.project-title {
@@ -2213,9 +2213,24 @@ video,
     max-height: 417px;
   }
 
+  .scrollX-intro .controls {
+   display: none;
+  }
+
   .scrollX-intro {
-    width: calc(100% - 40px);
-    right: 20px;
+    position: relative;
+    width: 100%;
+    right: 0;
+    padding-bottom: 10px;
+    justify-content: flex-start;
+  }
+
+  .scrollX-intro .title-module {
+    position: relative;
+  }
+
+  .carousel .carousel-items-container {
+    padding: 0;
   }
 }
 
