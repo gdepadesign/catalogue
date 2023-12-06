@@ -399,21 +399,16 @@ function playVideo() {
 }
 
 function addStickyNav() {
-  var stickyNavTop = $(".project-intro").offset().top;
-
-  var stickyNav = function () {
-    var scrollTop = $(".sidebar").scrollTop(); // our current vertical position from the top
-
-    if (scrollTop > stickyNavTop) {
-      $(".project-intro").addClass("sticky");
+  $(".sidebar").scroll(function () {
+    if ($(this).scrollTop() >= 1) {
+      $(".project-title").addClass("sticky-header");
+      $(".project-header").addClass("sticky-header");
+      $(".project-content").addClass("sticky-header");
     } else {
-      $(".project-intro").removeClass("sticky");
+      $(".project-title").removeClass("sticky-header");
+      $(".project-header").removeClass("sticky-header");
+      $(".project-content").removeClass("sticky-header");
     }
-  };
-
-  stickyNav();
-  $(window).scroll(function () {
-    stickyNav();
   });
 }
 
