@@ -652,11 +652,13 @@ a .project-company::after {
 
 .project-container {
   position: relative;
+  width: auto;
+  height: auto;
   display: flex;
   flex-direction: column;
   gap: 0px;
   border-left: 1px solid #00ffb8;
-  padding-bottom: 50px;
+  padding-bottom: 114px;
 }
 
 /* .project-intro {
@@ -688,6 +690,7 @@ a .project-company::after {
   height: auto;
   color: #00ffb8;
   padding-left: 50px;
+  padding-bottom: 0;
 }
 
 .module {
@@ -697,9 +700,9 @@ a .project-company::after {
   padding-top: 45px;
 }
 
-.module:last-of-type {
+/*.module:last-of-type {
   padding-bottom: 0 !important;
-}
+}*/
 
 .module.scrollY {
   gap: 40px;
@@ -999,7 +1002,7 @@ select::-ms-expand {
   width: 100%;
   height: auto;
   display: flex;
-  justify-content: center;
+  /*justify-content: center;*/
   cursor: zoom-in;
 }
 
@@ -1356,6 +1359,7 @@ video,
 
 .cta-container {
   width: calc(100% - 50px);
+  padding: 50px 0 0 50px;
   display: flex;
   flex-direction: row;
   gap: 30px;
