@@ -562,8 +562,6 @@ body {
 }
 
 .sticky-header .project-services {
-  /*height: 0px;
-  margin-top: 0;*/
   padding: 0;
   opacity: 0;
 }
@@ -577,8 +575,6 @@ body {
 }
 
 .sticky-header .project-details .project-attributes {
-  /*height: 0px;*/
-  padding: 0;
   opacity: 0;
 }
 
@@ -671,19 +667,20 @@ a .project-company::after {
 } */
 
 .project-header {
-  --ease: all 300ms ease;
+  --ease: all 300ms ease-out;
 
   opacity: 1;
   display: flex;
   flex-direction: row;
   padding: 0 0 40px 50px;
-  border-bottom: 1px solid #00ffb8;
+  border-bottom: 1px solid rgba(0, 255, 184, 1);
   transition: var(--ease);
 }
 
 .project-header.sticky-header {
   padding: 0 0 0 50px;
   opacity: 0;
+  border-bottom: 1px solid rgba(0, 255, 184, 0);
 }
 
 .project-content {
@@ -2002,18 +1999,27 @@ video,
   }
 
   .project-header {
-    padding-left: 20px;
+    height: auto;
+    padding: 0 0 50px 20px;
   }
 
-  .sticky .project-header {
-    background-color: rgba(0, 0, 0, 0.95);
-    backdrop-filter: none;
+  .project-header.sticky-header {
+    height: 0vh;
+    padding: 20px 0 0 20px;
   }
 
-  .project-title {
+  .sticky-header .module {
+    padding-top: 45px;
+  }
+
+  .sticky-header .module.excerpt {
+  padding-top: 45px;
+  }
+
+  /*.project-title {
     width: calc(100% - 20px);
     padding-top: 20px;
-  }
+  }*/
 
   .project-title p {
     width: 90%;
@@ -2025,6 +2031,7 @@ video,
     font-size: 24px;
     font-weight: 600;
     line-height: 1.3em;
+    padding: 0 0 15px 20px
   }
 
   .project-name h1 {
@@ -2046,6 +2053,7 @@ video,
   }
 
   .project-details {
+    width: calc(100% - 20px);
     padding: 0;
   }
 
