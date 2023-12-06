@@ -2004,8 +2004,8 @@ video,
   }
 
   .project-header.sticky-header {
-    height: 0vh;
-    padding: 20px 0 0 20px;
+    height: 20px;
+    padding: 0 0 0 20px;
   }
 
   .sticky-header .module {
@@ -2028,11 +2028,15 @@ video,
   }
 
   .project-title h1 {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
     line-height: 1.3em;
     padding: 0 0 15px 20px
   }
+
+  .sticky-header.project-title h1 {
+  font-size: 20px;
+}
 
   .project-name h1 {
     font-size: 22px;
