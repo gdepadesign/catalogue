@@ -1897,7 +1897,6 @@ img[data-src] {
   .wrapper {
     height: auto;
     padding-top: 15px;
-    touch-action: none;
   }
 
   .home {
@@ -1940,7 +1939,6 @@ img[data-src] {
     width: 100%;
     padding: 0;
     border: none;
-    touch-action: none;
   }
 
   .is-shift-sidebar {
@@ -2210,13 +2208,11 @@ img[data-src] {
 
   .nav {
     padding-bottom: 20px;
-    touch-action: none;
   }
 
   .nav.sticky {
     backdrop-filter: none;
     background-color: rgba(0, 0, 0, 0.9);
-    touch-action: none;
   }
 
   .nav-items {
