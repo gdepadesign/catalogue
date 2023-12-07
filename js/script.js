@@ -256,8 +256,7 @@ function imageFullScreen() {
   $("img[data-enlargable]")
     .addClass("img-enlargable")
     .click(function () {
-      var backgroundSizeValue =
-        window.innerWidth < 768 ? "90% auto" : "70% auto";
+      var backgroundSizeValue = window.innerWidth < 768 ? "90% auto" : "70% auto";
       var src = $(this).attr("src");
       $("<div>")
         .css({
@@ -352,7 +351,7 @@ function carouselDrag() {
 }
 
 function carouselNav() {
-  const imgWidth = window.innerWidth < 768 ? 300 : 475;
+  const imgWidth = window.innerWidth < 768 ? 300:475;
   const imgGap = 20;
   const duration = 500;
 
