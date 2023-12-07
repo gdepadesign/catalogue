@@ -705,9 +705,9 @@ a .project-company::after {
   gap: 40px;
 }
 
-.module.scrollY .carousel {
+/*.module.scrollY .carousel {
   padding-top: 20px;
-}
+}*/
 
 .module.scroll-x:first-of-type {
   padding-top: 150px !important;
@@ -864,6 +864,7 @@ a .project-company::after {
 .scrollX-intro .caption-title {
   position: absolute;
   left: 0;
+  bottom: 10px;
 }
 
 a .caption-title::after {
