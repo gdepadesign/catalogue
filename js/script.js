@@ -308,6 +308,15 @@ function addFadeIn() {
   });
 }
 
+$(document).ready(function () {
+  [].forEach.call(document.querySelectorAll("img[data-src]"), function (img) {
+    img.setAttribute("src", img.getAttribute("data-src"));
+    img.onload = function () {
+      img.removeAttribute("data-src");
+    };
+  });
+});
+
 function carouselDrag() {
   const sliders = document.querySelectorAll(".carousel");
   let isDown = false;

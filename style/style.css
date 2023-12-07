@@ -1420,6 +1420,18 @@ video,
   width: 100%;
 }
 
+/* Lazy loading */
+
+img {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+img[data-src] {
+  opacity: 0;
+}
+
+
 @media only screen and (min-width: 1920px) {
   .grid-items {
     max-width: 1920px;
