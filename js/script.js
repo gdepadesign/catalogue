@@ -466,8 +466,6 @@ function addProgressBar(dataTarget) {
   });
 }
 
-// Open preventDefault fix
-
 const eventListenerOptionsSupported = () => {
   let supported = false;
 
@@ -529,8 +527,6 @@ if (supportsPassive) {
   const addEvent = EventTarget.prototype.addEventListener;
   overwriteAddEvent(addEvent);
 }
-
-// Close preventDefault fix
 
 document.addEventListener("DOMContentLoaded", () => {
   addStickyHeader();
