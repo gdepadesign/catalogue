@@ -350,7 +350,7 @@ function carouselDrag() {
 }
 
 function carouselNav() {
-  const imgWidth = 475;
+  const imgWidth = window.innerWidth < 768 ? 300:475;
   const imgGap = 20;
   const duration = 500;
 
