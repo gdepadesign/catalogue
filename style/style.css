@@ -1897,14 +1897,20 @@ img[data-src] {
   .wrapper {
     height: auto;
     padding-top: 15px;
+    touch-action: none;
   }
 
   .home {
     font-size: 16px;
+    padding-top: 0px;
   }
 
   .home:hover {
     background: rgba(0, 255, 184, 0);
+  }
+
+  .sticky .home {
+    padding-top: 0px;
   }
 
   .items-results {
@@ -1934,6 +1940,7 @@ img[data-src] {
     width: 100%;
     padding: 0;
     border: none;
+    touch-action: none;
   }
 
   .is-shift-sidebar {
@@ -2203,11 +2210,13 @@ img[data-src] {
 
   .nav {
     padding-bottom: 20px;
+    touch-action: none;
   }
 
   .nav.sticky {
     backdrop-filter: none;
     background-color: rgba(0, 0, 0, 0.9);
+    touch-action: none;
   }
 
   .nav-items {

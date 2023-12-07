@@ -142,6 +142,23 @@ function changeProject() {
   }
 }
 
+function swipeRight() {
+  $(document.body).on(
+    "swiperight",
+    {passive: false},
+    function () {
+      $(".wrapper").removeClass("is-shift-content");
+      $(".nav").removeClass("is-shift-content");
+      $(".main").removeClass("is-shift-content");
+      $(".headline").removeClass("is-shift-content");
+      $(".sidebar").removeClass("is-shift-sidebar");
+      $(".open").removeClass("open-active");
+      $(".project").removeClass("project-active");
+      $(".project-name").removeClass("open-active");
+      $(".open").removeClass("nohover");
+  });
+}
+
 function selectByFilter() {
   var filterActive;
 
@@ -458,6 +475,7 @@ document.addEventListener("DOMContentLoaded", () => {
   openProject();
   closeProject();
   changeProject();
+  swipeRight();
   disableContextmenu();
   selectByFilter();
   initCategory();
