@@ -2024,10 +2024,9 @@ img[data-src] {
     padding-top: 45px;
   }
 
-  /*.project-title {
-    width: calc(100% - 20px);
-    padding-top: 20px;
-  }*/
+  .project-title {
+    background-color: rgba(0, 0, 0, .9);
+  }
 
   .project-title p {
     width: 90%;
