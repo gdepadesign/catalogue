@@ -562,7 +562,7 @@ body {
 }
 
 .sticky-header .project-services {
-  padding: 0;
+  /*padding: 0;*/
   opacity: 0;
 }
 
@@ -678,7 +678,7 @@ a .project-company::after {
 }
 
 .project-header.sticky-header {
-  padding: 0 0 0 50px;
+  /*padding: 0 0 40px 50px;*/
   opacity: 0;
   border-bottom: 1px solid rgba(0, 255, 184, 0);
 }
@@ -1435,7 +1435,6 @@ img[data-src] {
   opacity: 0;
 }
 
-
 @media only screen and (min-width: 1920px) {
   .grid-items {
     max-width: 1920px;
@@ -2016,13 +2015,11 @@ img[data-src] {
   }
 
   .project-header {
-    height: auto;
     padding: 0 0 50px 20px;
   }
 
   .project-header.sticky-header {
-    /*height: 20px;*/
-    padding: 0 0 0 20px;
+    padding: 0 0 50px 20px;
   }
 
   .sticky-header .module {
@@ -2034,7 +2031,7 @@ img[data-src] {
   }
 
   .project-title {
-    background-color: rgba(0, 0, 0, .9);
+    background-color: rgba(0, 0, 0, 0.9);
   }
 
   .project-title p {
@@ -2149,8 +2146,8 @@ img[data-src] {
   }
 
   .item-image img {
-  max-height: 226px;
-}
+    max-height: 226px;
+  }
 
   .cta-container {
     width: calc(100% - 40px);
@@ -2204,7 +2201,7 @@ img[data-src] {
 
   .caption-container.center {
     align-items: center;
-}
+  }
 
   .nav {
     padding-bottom: 20px;
@@ -2230,12 +2227,12 @@ img[data-src] {
   }
 
   .carousel-item:last-child {
-  padding-right: 20px;
-}
+    padding-right: 20px;
+  }
 
   .module.scrollY .carousel-item:last-child {
-  padding-right: 0px;
-}
+    padding-right: 0px;
+  }
 
   .scrollY-container {
     width: 100%;
