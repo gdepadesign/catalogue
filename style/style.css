@@ -1173,9 +1173,9 @@ a .scrollY-title::after {
   border-top-right-radius: 4px;
 }
 
-.fade {
+/*.fade {
   opacity: 1;
-}
+}*/
 
 .zoom-disabled {
   cursor: default;
