@@ -31,6 +31,8 @@ function openCloseSidebar() {
 
     $("#" + $(this).data("target")).show();
 
+    $("#" + $(this).data("target")).scrollTop(0);
+
     if ($(".is-shift-sidebar").length == 0) {
       $(".wrapper").toggleClass("is-shift-content");
       $(".nav").toggleClass("is-shift-content");
@@ -143,8 +145,7 @@ function changeProject() {
 }
 
 function swipeRight() {
-  $(document.body).on(
-    "swiperight", function (e) {
+  $(".sidebar").on("swiperight", function (e) {
     $(".wrapper").removeClass("is-shift-content");
     $(".nav").removeClass("is-shift-content");
     $(".main").removeClass("is-shift-content");
@@ -271,7 +272,8 @@ function imageFullScreen() {
   $("img[data-enlargable]")
     .addClass("img-enlargable")
     .click(function () {
-      var backgroundSizeValue = window.innerWidth < 768 ? "90% auto" : "70% auto";
+      var backgroundSizeValue =
+        window.innerWidth < 768 ? "90% auto" : "70% auto";
       var src = $(this).attr("src");
       $("<div>")
         .css({
@@ -366,7 +368,7 @@ function carouselDrag() {
 }
 
 function carouselNav() {
-  const imgWidth = window.innerWidth < 768 ? 300:475;
+  const imgWidth = window.innerWidth < 768 ? 300 : 475;
   const imgGap = 20;
   const duration = 500;
 
@@ -470,50 +472,67 @@ const eventListenerOptionsSupported = () => {
   let supported = false;
 
   try {
-    const opts = Object.defineProperty({}, 'passive', {
+    const opts = Object.defineProperty({}, "passive", {
       get() {
         supported = true;
-      }
+      },
     });
 
-    window.addEventListener('test', null, opts);
-    window.removeEventListener('test', null, opts);
+    window.addEventListener("test", null, opts);
+    window.removeEventListener("test", null, opts);
   } catch (e) {}
 
   return supported;
-}
+};
 
 const defaultOptions = {
   passive: false,
-  capture: false
+  capture: false,
 };
 const supportedPassiveTypes = [
-  'scroll', 'wheel',
-  'touchstart', 'touchmove', 'touchenter', 'touchend', 'touchleave',
-  'mouseout', 'mouseleave', 'mouseup', 'mousedown', 'mousemove', 'mouseenter', 'mousewheel', 'mouseover'
+  "scroll",
+  "wheel",
+  "touchstart",
+  "touchmove",
+  "touchenter",
+  "touchend",
+  "touchleave",
+  "mouseout",
+  "mouseleave",
+  "mouseup",
+  "mousedown",
+  "mousemove",
+  "mouseenter",
+  "mousewheel",
+  "mouseover",
 ];
 const getDefaultPassiveOption = (passive, eventName) => {
   if (passive !== undefined) return passive;
 
-  return supportedPassiveTypes.indexOf(eventName) === -1 ? false : defaultOptions.passive;
+  return supportedPassiveTypes.indexOf(eventName) === -1
+    ? false
+    : defaultOptions.passive;
 };
 
 const getWritableOptions = (options) => {
-  const passiveDescriptor = Object.getOwnPropertyDescriptor(options, 'passive');
+  const passiveDescriptor = Object.getOwnPropertyDescriptor(options, "passive");
 
-  return passiveDescriptor && passiveDescriptor.writable !== true && passiveDescriptor.set === undefined
+  return passiveDescriptor &&
+    passiveDescriptor.writable !== true &&
+    passiveDescriptor.set === undefined
     ? Object.assign({}, options)
     : options;
 };
 
 const overwriteAddEvent = (superMethod) => {
   EventTarget.prototype.addEventListener = function (type, listener, options) {
-    const usesListenerOptions = typeof options === 'object' && options !== null;
-    const useCapture          = usesListenerOptions ? options.capture : options;
+    const usesListenerOptions = typeof options === "object" && options !== null;
+    const useCapture = usesListenerOptions ? options.capture : options;
 
-    options         = usesListenerOptions ? getWritableOptions(options) : {};
+    options = usesListenerOptions ? getWritableOptions(options) : {};
     options.passive = getDefaultPassiveOption(options.passive, type);
-    options.capture = useCapture === undefined ? defaultOptions.capture : useCapture;
+    options.capture =
+      useCapture === undefined ? defaultOptions.capture : useCapture;
 
     superMethod.call(this, type, listener, options);
   };
