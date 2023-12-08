@@ -155,6 +155,7 @@ function swipeRight() {
     $(".project").removeClass("project-active");
     $(".project-name").removeClass("open-active");
     $(".open").removeClass("nohover");
+    $(".carousel-items-container").e.preventDefault();
   });
 }
 
