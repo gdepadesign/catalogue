@@ -39,6 +39,7 @@ function openCloseSidebar() {
       $(".main").toggleClass("is-shift-content");
       $(".headline").toggleClass("is-shift-content");
       $(".sidebar").toggleClass("is-shift-sidebar");
+      $(".sidebar").scrollTop(0);
       $(".wrapper.is-shift-sidebar").on("click", "button", function (event) {
         event.stopPropagation();
       });
@@ -80,6 +81,7 @@ function openProject() {
       $(".main").toggleClass("is-shift-content");
       $(".headline").toggleClass("is-shift-content");
       $(".sidebar").toggleClass("is-shift-sidebar");
+      $(".sidebar").scrollTop(0);
       $(".wrapper.is-shift-sidebar").on("click", function (event) {
         event.stopPropagation();
       });
