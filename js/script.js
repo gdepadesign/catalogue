@@ -159,7 +159,7 @@ function swipeRight() {
     $(".open").removeClass("nohover");
   });
 
-  $(".carousel").swipe(function (e) {
+  $(".carousel-items-container").on("swiperight", function (e) {
     e.stopImmediatePropagation();
     e.preventDefault();
   });
