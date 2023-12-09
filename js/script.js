@@ -158,6 +158,10 @@ function swipeRight() {
     $(".project-name").removeClass("open-active");
     $(".open").removeClass("nohover");
   });
+
+  $(".carousel").on("swiperight", function (e) {
+    return false;
+  });
 }
 
 function selectByFilter() {
