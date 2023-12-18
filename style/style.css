@@ -520,6 +520,7 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
+  left: 0px;
   cursor: pointer;
 }
 
@@ -705,9 +706,9 @@ a .project-company::after {
   gap: 40px;
 }
 
-/*.module.scrollY .carousel {
-  padding-top: 20px;
-}*/
+.module.scrollY .cta-container {
+  padding: 0 0 0 50px;
+}
 
 .module.scroll-x:first-of-type {
   padding-top: 150px !important;
@@ -2157,6 +2158,10 @@ img[data-src] {
     align-items: center;
     gap: 20px;
     padding: 114px 0 0;
+  }
+
+  .module.scrollY .cta-container {
+    padding: 0;
   }
 
   .cta-primary {
