@@ -589,6 +589,7 @@ document.addEventListener("DOMContentLoaded", () => {
   carouselNav();
   playVideo();
   loadProject();
+  new ClipboardJS(".copyurl");
 
   // Scroll
   document.querySelector(".sidebar").addEventListener("scroll", () => {
