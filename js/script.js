@@ -475,6 +475,22 @@ function addProgressBar(dataTarget) {
   });
 }
 
+function loadProject() {
+  $.urlParam = function (name) {
+    var results = new RegExp("[?&]" + name + "=([^&#]*)").exec(
+      window.location.href
+    );
+    if (results == null) {
+      return null;
+    }
+    return decodeURI(results[1]) || 0;
+  };
+
+  if ($.urlParam("id")) {
+    $(`div.project[data-target="${$.urlParam("id")}"]`).click();
+  }
+}
+
 const eventListenerOptionsSupported = () => {
   let supported = false;
 
@@ -572,6 +588,7 @@ document.addEventListener("DOMContentLoaded", () => {
   carouselDrag();
   carouselNav();
   playVideo();
+  loadProject();
 
   // Scroll
   document.querySelector(".sidebar").addEventListener("scroll", () => {
