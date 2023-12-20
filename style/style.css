@@ -659,7 +659,7 @@ a .project-company::after {
 
 .copyurl::after {
   font-family: "Material Symbols Outlined";
-  content: "\e14d";
+  content: "\e80d";
   font-size: 22px;
   font-weight: 300;
   font-style: normal;
@@ -2204,7 +2204,7 @@ img[data-src] {
   }
 
   .module.scrollY .cta-container {
-    padding: 40px 0 0;
+    padding: 0;
   }
 
   .cta-primary {
