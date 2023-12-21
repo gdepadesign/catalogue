@@ -652,7 +652,8 @@ a .project-company::after {
   transition: all 300ms ease-out;
 }
 
-.copyurl:hover {
+.copyurl:hover,
+.share-active {
   color: rgba(0, 0, 0, 1);
   background: rgba(0, 255, 184, 1);
 }
