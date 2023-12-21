@@ -1491,7 +1491,7 @@ img[data-src] {
   transition: background-color 0.2s ease-in-out;
 }
 
-.tooltiptext::after{
+.tooltiptext::after {
   width: 0;
   height: 0;
   top: 8px;
@@ -1513,8 +1513,6 @@ img[data-src] {
 .tooltip.active .tooltiptext {
   visibility: visible;
 }
-
-
 
 @media only screen and (min-width: 1920px) {
   .grid-items {
@@ -2220,8 +2218,8 @@ img[data-src] {
   }
 
   .share-active {
-    color: rgba(0, 0, 0, 1)!important;
-    background: rgba(0, 255, 184, 1)!important;
+    color: rgba(0, 0, 0, 1) !important;
+    background: rgba(0, 255, 184, 1) !important;
   }
 
   .project-content p {
