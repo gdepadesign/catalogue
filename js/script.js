@@ -492,24 +492,26 @@ function loadProject() {
 }
 
 function initTooltip() {
-  var tooltip = document.querySelector(".tooltip");
-
-  tooltip.addEventListener("click", function () {
-    if (this.classList.contains("active")) {
-      this.classList.remove("active");
-    } else {
-      this.classList.add("active");
-    }
+  $(".tooltip").each(function (index) {
+    $(this).on("click", () => {
+      if (this.classList.contains("active")) {
+        this.classList.remove("active");
+      } else {
+        this.classList.add("active");
+      }
+    });
   });
 }
 
 function initShare() {
-  $(document.body).on("click", ".copyurl", function () {
+  $(".copyurl").each(function (index) {
+    $(this).on("click", () => {
     if ($(this).hasClass("active")) {
       $(this).addClass("share-active");
     } else {
       $(this).removeClass("share-active");
     }
+    });
   });
 }
 
