@@ -644,7 +644,7 @@ a .project-company::after {
   justify-content: center;
   align-items: center;
   color: rgba(0, 255, 184, 1);
-  width: 28px;
+  min-width: 28px;
   height: 28px;
   background: rgba(0, 255, 184, 0);
   border-radius: 20px;
@@ -664,6 +664,7 @@ a .project-company::after {
   font-size: 22px;
   font-weight: 300;
   font-style: normal;
+  left: 2px;
 }
 
 .selected {
@@ -2216,6 +2217,11 @@ img[data-src] {
   .copyurl:hover {
     color: rgba(0, 255, 184, 1);
     background: rgba(0, 255, 184, 0);
+  }
+
+  .share-active {
+    color: rgba(0, 0, 0, 1)!important;
+    background: rgba(0, 255, 184, 1)!important;
   }
 
   .project-content p {
