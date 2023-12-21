@@ -1448,7 +1448,7 @@ img[data-src] {
 
 /* Tooltip */
 
-.tooltip-label {
+.tooltip {
   position: relative;
   display: flex;
   justify-content: center;
@@ -1462,7 +1462,7 @@ img[data-src] {
   transition: all 300ms ease-out;
 }
 
-.tooltip-label:after {
+.tooltip:after {
   content: "Copy to Clipboard";
   display: none;
   position: absolute;
@@ -1481,25 +1481,25 @@ img[data-src] {
   border-radius: 3px;
 }
 
-.tooltip-label:hover {
+.tooltip:hover {
   color: rgba(0, 0, 0, 1);
   background: rgba(0, 255, 184, 1);
 }
 
-.tooltip-label:hover:before, .tooltip-label:hover:after {
+.tooltip:hover:before, .tooltip:hover:after {
   display: block;
 }
 
-.tooltip-label:active, .tooltip-label:focus {
+.tooltip:active, .tooltip:focus {
   outline: none;
 }
 
-.tooltip-label:active:after, .tooltip-label:focus:after {
+.tooltip:active:after, .tooltip:focus:after {
   content: "Copied!";
   left: -73px;
 }
 
-.tooltip-label span {
+.tooltip span {
   font-size: 22px;
   font-weight: 600!important;
 }
@@ -2204,7 +2204,7 @@ img[data-src] {
     align-items: flex-end;
   }
 
-  .copyurl:hover {
+  .tooltip:hover {
     color: rgba(0, 255, 184, 1);
     background: rgba(0, 255, 184, 0);
   }
