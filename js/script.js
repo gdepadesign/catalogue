@@ -614,8 +614,8 @@ document.addEventListener("DOMContentLoaded", () => {
   playVideo();
   loadProject();
   new ClipboardJS(".copyurl");
-  initTooltip();
-  initShare();
+  //initTooltip();
+  //initShare();
 
   // Scroll
   document.querySelector(".sidebar").addEventListener("scroll", () => {
