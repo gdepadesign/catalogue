@@ -504,7 +504,7 @@ function initTooltip() {
 }
 
 function initShare() {
-  $(".copyurl").each(function (index) {
+  $(".tooltip").each(function (index) {
     $(this).on("click", () => {
     if ($(this).hasClass("active")) {
       $(this).addClass("share-active");
