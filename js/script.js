@@ -495,9 +495,9 @@ function initTooltip() {
   $(".tooltip").each(function (index) {
     $(this).on("click", () => {
       if (this.classList.contains("active")) {
-        this.classList.remove("active");
+        this.classList.remove("copied");
       } else {
-        this.classList.add("active");
+        this.classList.add("copied");
       }
     });
   });
