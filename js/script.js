@@ -613,7 +613,7 @@ document.addEventListener("DOMContentLoaded", () => {
   carouselNav();
   playVideo();
   loadProject();
-  new ClipboardJS(".copyurl");
+  new ClipboardJS(".tooltip");
   initTooltip();
   //initShare();
 
