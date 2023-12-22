@@ -574,6 +574,7 @@ body {
 }
 
 .project-details .project-attributes {
+  width: auto;
   justify-content: flex-start;
   gap: 20px;
 }
@@ -1490,17 +1491,18 @@ img[data-src] {
   display: block;
 }
 
-.tooltip:active, .tooltip:focus {
+/* .tooltip:active, .tooltip:focus {
   outline: none;
-}
+} */
 
-.tooltip:active:after, .tooltip:focus:after {
+.tooltip:active:after {
   content: "Copied!";
   left: -73px;
 }
 
-.tooltip:after .active {
+.tooltip:focus:after {
   content: "Copied!";
+  left: -73px;
 }
 
 .tooltip span {
