@@ -1486,7 +1486,7 @@ img[data-src] {
   background: rgba(0, 255, 184, 1);
 }
 
-.tooltip:hover:before, .tooltip:hover:after {
+.tooltip:hover:after {
   display: block;
 }
 
