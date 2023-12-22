@@ -494,7 +494,7 @@ function loadProject() {
 function initTooltip() {
   $(".tooltip").each(function (index) {
     $(this).on("click", () => {
-      if (this.classList.contains("active")) {
+      if (this.classList.contains("copied")) {
         this.classList.remove("copied");
       } else {
         this.classList.add("copied");
@@ -613,8 +613,8 @@ document.addEventListener("DOMContentLoaded", () => {
   carouselNav();
   playVideo();
   loadProject();
-  new ClipboardJS(".copyurl");
-  //initTooltip();
+  new ClipboardJS(".tooltip");
+  initTooltip();
   //initShare();
 
   // Scroll

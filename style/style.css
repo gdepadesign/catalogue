@@ -1446,7 +1446,6 @@ img[data-src] {
   opacity: 0;
 }
 
-
 /* Tooltip */
 
 .tooltip {
@@ -1479,7 +1478,7 @@ img[data-src] {
   text-transform: capitalize;
   text-align: end;
   text-wrap: nowrap;
-  box-shadow: 0px 0px 0px 1px rgba(0, 255, 184, .3);
+  box-shadow: 0px 0px 0px 1px rgba(0, 255, 184, 0.3);
   border-radius: 3px;
 }
 
@@ -1501,23 +1500,22 @@ img[data-src] {
   left: -73px;
 }
 
-.tooltip:focus:after {
+.copied {
+  color: rgba(0, 255, 184, 1);
+  background: rgba(0, 255, 184, 0);
+}
+
+.copied:after {
   content: "Copied!";
   left: -73px;
 }
 
-.copied {
-  content: "Copied!";
-}
-
 .tooltip span {
   font-size: 22px;
-  font-weight: 600!important;
+  font-weight: 600 !important;
   position: absolute;
   left: 1px;
 }
-
-
 
 @media only screen and (min-width: 1920px) {
   .grid-items {
@@ -1749,7 +1747,7 @@ img[data-src] {
   .wrapper.is-shift-content .project {
     flex-direction: column;
     align-items: flex-start;
-    gap: 10px;
+    gap: 15px;
     justify-content: flex-start;
     padding: 15px 0;
   }
@@ -2216,14 +2214,29 @@ img[data-src] {
     align-items: flex-end;
   }
 
+  .tooltip:after {
+    content: "";
+    display: none;
+  }
+
   .tooltip:hover {
     color: rgba(0, 255, 184, 1);
     background: rgba(0, 255, 184, 0);
   }
 
-  .share-active {
-    color: rgba(0, 0, 0, 1) !important;
-    background: rgba(0, 255, 184, 1) !important;
+  .tooltip:hover:after {
+    display: block;
+    content: "";
+    left: -73px;
+    background: none;
+    box-shadow: none;
+  }
+
+  .tooltip:active:after {
+    content:"Copied!";
+    color: #00ffb8;
+    background-color: rgba(0, 39, 28, 1);
+    box-shadow: 0px 0px 0px 1px rgba(0, 255, 184, 0.3);
   }
 
   .project-content p {
