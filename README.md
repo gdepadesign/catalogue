@@ -1,3 +1,5 @@
+<br/><br/>
+
 <img src="https://github.com/gdepadesign/catalogue/assets/30157495/e6182188-43cf-41d9-877b-7c4140bf50f7" alt="Waving Hand" width="32" height="auto">
 
 Hi, I’m [Giacomo De Panfilis](https://www.linkedin.com/in/giacomodepanfilis/).
@@ -15,3 +17,5 @@ An Italian designer who communicates and visualises in a simple and intuitive wa
 <img src="https://github.com/gdepadesign/catalogue/assets/30157495/6161bb62-737d-4bab-b426-107832cc629c" alt="Notebook" width="32" height="auto">
 
 [Download](https://www.gdepadesign.com/assets/GiacomoDePanfilis_CV.pdf) my CV.
+
+<br/>
