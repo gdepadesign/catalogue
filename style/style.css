@@ -340,7 +340,7 @@ body {
 }
 
 .nav.is-shift-content .nav-items .filtering .form-control {
-  width: 115px;
+  max-width: 160px;
   background-color: rgba(0, 255, 184, 0);
 }
 
@@ -1505,9 +1505,15 @@ img[data-src] {
   left: -73px;
 }
 
+.copied {
+  content: "Copied!";
+}
+
 .tooltip span {
   font-size: 22px;
   font-weight: 600!important;
+  position: absolute;
+  left: 1px;
 }
 
 

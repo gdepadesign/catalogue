@@ -494,10 +494,10 @@ function loadProject() {
 function initTooltip() {
   $(".tooltip").each(function (index) {
     $(this).on("click", () => {
-      if (this.classList.contains("active")) {
-        this.classList.remove("active");
+      if ($(".tooltip::after").is(":active")) { 
+        $(this).addClass("copied");
       } else {
-        this.classList.add("active");
+        $(this).removeClass("copied");
       }
     });
   });
@@ -614,7 +614,7 @@ document.addEventListener("DOMContentLoaded", () => {
   playVideo();
   loadProject();
   new ClipboardJS(".copyurl");
-  //initTooltip();
+  initTooltip();
   //initShare();
 
   // Scroll
