@@ -1499,6 +1499,10 @@ img[data-src] {
   left: -73px;
 }
 
+.tooltip:after .active {
+  content: "Copied!";
+}
+
 .tooltip span {
   font-size: 22px;
   font-weight: 600!important;
