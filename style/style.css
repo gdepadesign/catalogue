@@ -629,7 +629,7 @@ a .project-company::after {
   color: rgba(0, 255, 184, 0.7);
   text-transform: uppercase;
   padding: 6px 6px 5px 8px;
-  background: rgba(0, 255, 184, 0.1);
+  background: rgba(0, 255, 184, 0.15);
   border-radius: 2px;
   cursor: pointer;
   transition: all 300ms ease-out;
@@ -637,7 +637,7 @@ a .project-company::after {
 
 .project-category:hover {
   color: rgba(0, 255, 184, 1);
-  background: rgba(0, 255, 184, 0.15);
+  background: rgba(0, 255, 184, 0.25);
 }
 
 .selected {
@@ -1457,7 +1457,7 @@ img[data-src] {
   color: rgba(0, 255, 184, 1);
   min-width: 28px;
   height: 28px;
-  background: rgba(0, 255, 184, 0);
+  background: rgba(0, 39, 28, 0);
   border-radius: 20px;
   cursor: pointer;
   transition: all 300ms ease-out;
@@ -1469,16 +1469,17 @@ img[data-src] {
   position: absolute;
   top: 0px;
   left: -140px;
+  z-index: 1000;
   width: auto;
   padding: 5px 8px;
-  background: rgba(0, 255, 184, 0.2);
-  color: rgba(0, 255, 184, 1);
+  background-color: rgba(0, 39, 28, 1);
+  color: #00ffb8;
   font-family: "Figtree", sans-serif;
   font-size: 14px;
   text-transform: capitalize;
   text-align: end;
   text-wrap: nowrap;
-  background: rgba(0, 255, 184, 0.3);
+  box-shadow: 0px 0px 0px 1px rgba(0, 255, 184, .3);
   border-radius: 3px;
 }
 
@@ -2182,7 +2183,6 @@ img[data-src] {
   }
 
   .project-details .project-attributes {
-    margin: 0 auto;
     gap: 20px;
     flex-direction: column;
     align-items: flex-start;
