@@ -1,4 +1,4 @@
-<br/><br/>
+<br/>
 
 <img src="https://github.com/gdepadesign/catalogue/assets/30157495/e6182188-43cf-41d9-877b-7c4140bf50f7" alt="Waving Hand" width="32" height="auto">
 
