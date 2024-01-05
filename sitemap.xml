@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+<loc>https://catalogue.gdepadesign.com</loc>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/assets/gdepadesign-catalogue.jpg</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/thumbs/antigone.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/thumbs/berenberg-eh.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/thumbs/fiware-rdprojects.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/thumbs/fiware-website.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/thumbs/guardian.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/thumbs/lalettura.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/thumbs/larepubblica.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/thumbs/lespresso.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/thumbs/majedie.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/thumbs/openmigration.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/thumbs/slot.webp</image:loc>
+</image:image>
+<priority>1.0</priority>
+</url>
+
+<url>
+<loc>https://catalogue.gdepadesign.com/projects/berenberg.html</loc>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/collectvly/berenberg-1.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/collectvly/majedie/berenberg-2.webp</image:loc>
+</image:image>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://catalogue.gdepadesign.com/projects/fiware-rd-projects.html</loc>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/fiware/projects/logo/variants/batterypass.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/fiware/projects/look-and-feel/batterypass.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/fiware/projects/websites/batterypass.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/fiware/projects/editorial/batterypass.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/fiware/projects/logo/variants/beopen.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/fiware/projects/look-and-feel/beopen.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/fiware/projects/websites/beopen.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/fiware/projects/editorial/beopen.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/fiware/projects/logo/variants/dome.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/fiware/projects/look-and-feel/dome.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/fiware/projects/websites/dome.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/fiware/projects/editorial/dome.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/fiware/projects/logo/variants/enershare.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/fiware/projects/look-and-feel/enershare.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/fiware/projects/websites/enershare.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/fiware/projects/editorial/enershare.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/fiware/projects/logo/variants/interstat.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/fiware/projects/look-and-feel/interstat.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/fiware/projects/websites/interstat.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/fiware/projects/editorial/interstat.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/fiware/projects/logo/variants/spotted.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/fiware/projects/look-and-feel/spotted.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/fiware/projects/websites/spotted.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/fiware/projects/editorial/spotted.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/fiware/projects/logo/variants/token.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/fiware/projects/look-and-feel/token.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/fiware/projects/websites/token.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/fiware/projects/editorial/token.webp</image:loc>
+</image:image>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://catalogue.gdepadesign.com/projects/fiware-website.html</loc>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/fiware/website/home-1.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/fiware/website/home-2.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/fiware/website/home-full.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/fiware/website/brand-guide/fbg-intro.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/fiware/website/brand-guide/fbg-intro-full.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/fiware/website/brand-guide/fbg-logo.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/fiware/website/brand-guide/fbg-logo-usage-1.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/fiware/website/brand-guide/fbg-logo-usage-2.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/fiware/website/brand-guide/fbg-badges-catalogue.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/fiware/website/brand-guide/fbg-typography.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/fiware/website/brand-guide/fbg-colour.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/fiware/website/directory/catalogue-1.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/fiware/website/directory/catalogue-2.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/fiware/website/directory/catalogue-full.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/fiware/website/marketplace/marketplace-1.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/fiware/website/marketplace/marketplace-2.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/fiware/website/marketplace/marketplace-3.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/fiware/website/marketplace/marketplace-full.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/fiware/website/directory/careers-1.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/fiware/website/directory/careers-2.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/fiware/website/directory/ihubs.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/fiware/website/directory/impact-stories.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/fiware/website/directory/marketing-toolbox.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/fiware/website/directory/open-calls.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/fiware/website/directory/rd-projects.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/fiware/website/directory/webinars.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/fiware/website/people/bod-1.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/fiware/website/people/bod-2.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/fiware/website/people/evangelists.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/fiware/website/people/msc.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/fiware/website/people/team.webp</image:loc>
+</image:image>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://catalogue.gdepadesign.com/projects/italia-delle-slot.html</loc>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/slot/home.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/slot/comune.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/slot/analisi-1.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/slot/analisi-2.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/slot/analisi-3.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/slot/analisi-4.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/slot/map.webp</image:loc>
+</image:image>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://catalogue.gdepadesign.com/projects/la-lettura.html</loc>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/lalettura/opere-distrutte/cover.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/lalettura/opere-distrutte/steps.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/lalettura/opere-distrutte/research.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/lalettura/opere-distrutte/analysis.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/lalettura/opere-distrutte/concept.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/lalettura/opere-distrutte/sketch.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/lalettura/opere-distrutte/design.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/lalettura/fred-audrey.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/lalettura/meridiani.webp</image:loc>
+</image:image>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://catalogue.gdepadesign.com/projects/la-repubblica.html</loc>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/larepubblica/charts/rapporto-poverta.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/larepubblica/charts/rischi-globali.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/larepubblica/charts/ue-armi-export.webp</image:loc>
+</image:image>
+<video:video>
+    <video:thumbnail_loc>https://catalogue.gdepadesign.com/images/larepubblica/motion/millennials-vs-babyboomers.webp</video:thumbnail_loc>
+    <video:title>Millennials VS Baby Boomers</video:title>
+    <video:description>
+        Motion Video for la Repubblica
+    </video:description>
+    <video:content_loc>
+        https://www.gdepadesign.com/video/millennials.mp4
+    </video:content_loc>
+</video:video>
+
+<video:video>
+    <video:thumbnail_loc>https://catalogue.gdepadesign.com/images/larepubblica/motion/esteri.webp</video:thumbnail_loc>
+    <video:title>Rep News – Economia</video:title>
+    <video:description>
+        Motion Video for la Repubblica
+    </video:description>
+    <video:content_loc>
+        https://www.gdepadesign.com/video/repnews-economia.mp4
+    </video:content_loc>
+</video:video>
+
+<video:video>
+    <video:thumbnail_loc>https://catalogue.gdepadesign.com/images/larepubblica/motion/esteri.webp</video:thumbnail_loc>
+    <video:title>Rep News – Esteri</video:title>
+    <video:description>
+        Motion Video for la Repubblica
+    </video:description>
+    <video:content_loc>
+        https://www.gdepadesign.com/video/repnews-esteri.mp4
+    </video:content_loc>
+</video:video>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://catalogue.gdepadesign.com/projects/lespresso.html</loc>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/lespresso/9-11.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/lespresso/gioco-di-stato.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/lespresso/emilia-nostra.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/lespresso/007.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/lespresso/difesa.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/lespresso/tasse-1.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/lespresso/tasse-2.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/lespresso/borsa.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/lespresso/alimentazione.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/lespresso/cavi-rete.webp</image:loc>
+</image:image>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://catalogue.gdepadesign.com/projects/majedie.html</loc>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/collectvly/majedie/cover.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/collectvly/majedie/majedie-1.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/collectvly/majedie/majedie-2.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/collectvly/majedie/majedie-3.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/collectvly/majedie/majedie-4.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/collectvly/majedie/majedie-5.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/collectvly/majedie/majedie-6.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/collectvly/majedie/majedie-7.webp</image:loc>
+</image:image>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://catalogue.gdepadesign.com/projects/open-migration.html</loc>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/openmigration/cover.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/openmigration/charts/non-common/lollipop.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/openmigration/charts/non-common/radial-column-chart.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/openmigration/charts/non-common/sankey-diagram.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/openmigration/maps/flat/corophlet-and-symbols-map-europe.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/openmigration/maps/flat/dot-map-europe.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/openmigration/maps/flat/corophlet-map-europe.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/openmigration/maps/flat/corophlet-map-italy.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/openmigration/maps/flat/location-and-dot-map-italy.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/openmigration/maps/flat/visited-country-map-world.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/openmigration/maps/relief/route-map.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/openmigration/maps/relief/flow-map.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/openmigration/charts/area-and-line/area-chart-1.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/openmigration/charts/area-and-line/area-chart-2.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/openmigration/charts/area-and-line/line-area-chart-1.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/openmigration/charts/area-and-line/line-area-chart-2.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/openmigration/charts/area-and-line/line-area-chart-3.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/openmigration/charts/bars/horizontal-bar-chart.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/openmigration/charts/bars/horizontal-multi-set-bar-chart.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/openmigration/charts/bars/horizontal-positive-negative-bar-chart.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/openmigration/charts/bars/horizontal-stacked-bar-chart.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/openmigration/charts/bars/vertical-bar-chart-120px.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/openmigration/charts/bars/vertical-bar-chart-60px.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/openmigration/charts/bars/vertical-multi-set-bar-chart.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/openmigration/charts/bars/vertical-positive-negative-bar-chart.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/openmigration/charts/bars/vertical-stacked-bar-chart.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/openmigration/charts/donuts/single-donut-chart-1.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/openmigration/charts/donuts/single-donut-chart-2.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/openmigration/charts/donuts/doble-donut-chart-1.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/openmigration/charts/donuts/doble-donut-chart-2.webp</image:loc>
+</image:image>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://catalogue.gdepadesign.com/projects/the-guardian.html</loc>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/guardian/north-korea.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/guardian/california-wildfires.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/guardian/dog-poo.webp</image:loc>
+</image:image>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://catalogue.gdepadesign.com/projects/torna-il-carcere.html</loc>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/antigone/cover.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/antigone/article01.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/antigone/article02.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/antigone/chart01.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/antigone/chart02.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/antigone/chart03.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/antigone/map01.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/antigone/map02.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://catalogue.gdepadesign.com/images/antigone/map03.webp</image:loc>
+</image:image>
+<priority>0.8</priority>
+</url>
+
+</urlset>
