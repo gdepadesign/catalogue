@@ -51,7 +51,7 @@
 <image:image>
     <image:loc>https://catalogue.gdepadesign.com/images/collectvly/majedie/berenberg-2.webp</image:loc>
 </image:image>
-<priority>0.8</priority>
+<priority>0.9</priority>
 </url>
 
 <url>
@@ -140,7 +140,7 @@
 <image:image>
     <image:loc>https://catalogue.gdepadesign.com/images/fiware/projects/editorial/token.webp</image:loc>
 </image:image>
-<priority>0.8</priority>
+<priority>0.9</priority>
 </url>
 
 <url>
@@ -238,7 +238,7 @@
 <image:image>
     <image:loc>https://catalogue.gdepadesign.com/images/fiware/website/people/team.webp</image:loc>
 </image:image>
-<priority>0.8</priority>
+<priority>0.9</priority>
 </url>
 
 <url>
@@ -264,7 +264,7 @@
 <image:image>
     <image:loc>https://catalogue.gdepadesign.com/images/slot/map.webp</image:loc>
 </image:image>
-<priority>0.8</priority>
+<priority>0.9</priority>
 </url>
 
 <url>
@@ -296,7 +296,7 @@
 <image:image>
     <image:loc>https://catalogue.gdepadesign.com/images/lalettura/meridiani.webp</image:loc>
 </image:image>
-<priority>0.8</priority>
+<priority>0.9</priority>
 </url>
 
 <url>
@@ -342,7 +342,7 @@
         https://www.gdepadesign.com/video/repnews-esteri.mp4
     </video:content_loc>
 </video:video>
-<priority>0.8</priority>
+<priority>0.9</priority>
 </url>
 
 <url>
@@ -377,7 +377,7 @@
 <image:image>
     <image:loc>https://catalogue.gdepadesign.com/images/lespresso/cavi-rete.webp</image:loc>
 </image:image>
-<priority>0.8</priority>
+<priority>0.9</priority>
 </url>
 
 <url>
@@ -406,7 +406,7 @@
 <image:image>
     <image:loc>https://catalogue.gdepadesign.com/images/collectvly/majedie/majedie-7.webp</image:loc>
 </image:image>
-<priority>0.8</priority>
+<priority>0.9</priority>
 </url>
 
 <url>
@@ -501,7 +501,7 @@
 <image:image>
     <image:loc>https://catalogue.gdepadesign.com/images/openmigration/charts/donuts/doble-donut-chart-2.webp</image:loc>
 </image:image>
-<priority>0.8</priority>
+<priority>0.9</priority>
 </url>
 
 <url>
@@ -515,7 +515,7 @@
 <image:image>
     <image:loc>https://catalogue.gdepadesign.com/images/guardian/dog-poo.webp</image:loc>
 </image:image>
-<priority>0.8</priority>
+<priority>0.9</priority>
 </url>
 
 <url>
@@ -547,7 +547,7 @@
 <image:image>
     <image:loc>https://catalogue.gdepadesign.com/images/antigone/map03.webp</image:loc>
 </image:image>
-<priority>0.8</priority>
+<priority>0.9</priority>
 </url>
 
 </urlset>
