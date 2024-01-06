@@ -2269,7 +2269,7 @@ img[data-src] {
   }
 
   .module.scrollY .cta-container {
-    padding: 0;
+    padding: 30px 0 0 0;
   }
 
   .cta-primary {
