@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /assets/
+
+User-agent: *
+Disallow: /style/
+
+User-agent: *
+Disallow: /projects/
+
+
+User-agent: *
+Allow: /
+
+Sitemap: https://catalogue.gdepadesign.com/sitemap.xml
