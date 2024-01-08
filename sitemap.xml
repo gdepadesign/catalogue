@@ -52,7 +52,7 @@
 </url>
 
 <url>
-<loc>https://catalogue.gdepadesign.com/projects/berenberg.html</loc>
+<loc>https://catalogue.gdepadesign.com/?id=berenberg</loc>
 <image:image>
     <image:loc>https://catalogue.gdepadesign.com/images/collectvly/berenberg-1.webp</image:loc>
 </image:image>
@@ -63,7 +63,7 @@
 </url>
 
 <url>
-<loc>https://catalogue.gdepadesign.com/projects/fiware-rd-projects.html</loc>
+<loc>https://catalogue.gdepadesign.com/?id=rd-projects</loc>
 <image:image>
     <image:loc>https://catalogue.gdepadesign.com/images/fiware/projects/logo/variants/batterypass.webp</image:loc>
 </image:image>
@@ -152,7 +152,7 @@
 </url>
 
 <url>
-<loc>https://catalogue.gdepadesign.com/projects/fiware-website.html</loc>
+<loc>https://catalogue.gdepadesign.com/?id=fiware-website</loc>
 <image:image>
     <image:loc>https://catalogue.gdepadesign.com/images/fiware/website/home-1.webp</image:loc>
 </image:image>
@@ -250,7 +250,7 @@
 </url>
 
 <url>
-<loc>https://catalogue.gdepadesign.com/projects/italia-delle-slot.html</loc>
+<loc>https://catalogue.gdepadesign.com/?id=italia-slot</loc>
 <image:image>
     <image:loc>https://catalogue.gdepadesign.com/images/slot/home.webp</image:loc>
 </image:image>
@@ -276,7 +276,7 @@
 </url>
 
 <url>
-<loc>https://catalogue.gdepadesign.com/projects/la-lettura.html</loc>
+<loc>https://catalogue.gdepadesign.com/?id=lalettura</loc>
 <image:image>
     <image:loc>https://catalogue.gdepadesign.com/images/lalettura/opere-distrutte/cover.webp</image:loc>
 </image:image>
@@ -308,7 +308,7 @@
 </url>
 
 <url>
-<loc>https://catalogue.gdepadesign.com/projects/la-repubblica.html</loc>
+<loc>https://catalogue.gdepadesign.com/?id=larepubblica</loc>
 <image:image>
     <image:loc>https://catalogue.gdepadesign.com/images/larepubblica/charts/rapporto-poverta.webp</image:loc>
 </image:image>
@@ -354,7 +354,7 @@
 </url>
 
 <url>
-<loc>https://catalogue.gdepadesign.com/projects/lespresso.html</loc>
+<loc>https://catalogue.gdepadesign.com/?id=lespresso</loc>
 <image:image>
     <image:loc>https://catalogue.gdepadesign.com/images/lespresso/9-11.webp</image:loc>
 </image:image>
@@ -389,7 +389,7 @@
 </url>
 
 <url>
-<loc>https://catalogue.gdepadesign.com/projects/majedie.html</loc>
+<loc>https://catalogue.gdepadesign.com/?id=majedie</loc>
 <image:image>
     <image:loc>https://catalogue.gdepadesign.com/images/collectvly/majedie/cover.webp</image:loc>
 </image:image>
@@ -418,7 +418,7 @@
 </url>
 
 <url>
-<loc>https://catalogue.gdepadesign.com/projects/open-migration.html</loc>
+<loc>https://catalogue.gdepadesign.com/?id=open-migration</loc>
 <image:image>
     <image:loc>https://catalogue.gdepadesign.com/images/openmigration/cover.webp</image:loc>
 </image:image>
@@ -513,7 +513,7 @@
 </url>
 
 <url>
-<loc>https://catalogue.gdepadesign.com/projects/the-guardian.html</loc>
+<loc>https://catalogue.gdepadesign.com/?id=theguardian</loc>
 <image:image>
     <image:loc>https://catalogue.gdepadesign.com/images/guardian/north-korea.webp</image:loc>
 </image:image>
@@ -527,7 +527,7 @@
 </url>
 
 <url>
-<loc>https://catalogue.gdepadesign.com/projects/torna-il-carcere.html</loc>
+<loc>https://catalogue.gdepadesign.com/?id=torna-il-carcere</loc>
 <image:image>
     <image:loc>https://catalogue.gdepadesign.com/images/antigone/cover.webp</image:loc>
 </image:image>
