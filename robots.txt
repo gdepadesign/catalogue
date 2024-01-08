@@ -5,7 +5,7 @@ User-agent: *
 Disallow: /style/
 
 User-agent: *
-Disallow: /projects/
+Disallow: /js/
 
 
 User-agent: *
