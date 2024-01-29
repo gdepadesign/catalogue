@@ -594,6 +594,28 @@ if (supportsPassive) {
   overwriteAddEvent(addEvent);
 }
 
+// Funzione che crea il cookie
+function createCookie(name,value,days) {
+  if (days) {
+    var date = new Date();
+    date.setTime(date.getTime()+(days*24*60*60*1000));
+    var expires = "; expires="+date.toGMTString();
+  } else { 
+    var expires = "";
+  }
+  document.cookie = name+"="+value+expires+";SameSite=None;Secure; path=/; domain="+window.location.hostname+";";
+}
+// Controlla i parametri in URL
+const params = new Proxy(new URLSearchParams(window.location.search), {
+  get: (searchParams, prop) => searchParams.get(prop),
+});
+// Prende il valore del parametro "nohit" in URL
+var no_hit_track = params.nohit;
+// Se il parametro "nohit" è uguale a 1 viene chiamata la funzione per creare il cookie
+if(no_hit_track == '1'){
+  createCookie("NoHitTrack","1",365);
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   addStickyHeader();
   imageReveal();
